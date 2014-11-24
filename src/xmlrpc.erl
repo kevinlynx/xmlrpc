@@ -279,7 +279,7 @@ send(Socket, {Host,URI}, Header, Payload) ->
 	 "\r\n",
 	 "User-Agent: Erlang XML-RPC Client 1.13\r\n",
 	 "Content-Type: text/xml\r\n",
-	 "Host: ", Host, "\r\n",
+	 "Host: ", "", "\r\n",
 	 Header, "\r\n",
 	 Payload],
     send(Socket, Request);
